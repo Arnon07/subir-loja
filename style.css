@@ -1,0 +1,93 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+@media (min-width: 992px) {
+  header {
+    -webkit-box-shadow: 0px 14px 20px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 14px 20px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 14px 20px -13px rgba(0, 0, 0, 0.75);
+  }
+  .bar .logo {
+    margin: 0vw 0vw 1vw 3vw;
+    width: 10vw;
+  }
+  .sessao .div-center {
+    margin: 1vw 17vw 1vw 18vw;
+  }
+  .sessao .div-center .text-1 {
+    font-size: 4.5vw;
+    text-align: center;
+    padding-top: 3vw;
+    font-family: "Roboto", sans-serif;
+  }
+  .sessao .div-center .paragraph {
+    font-size: 1.3vw;
+    text-align: center;
+    padding-top: 3vw;
+    font-family: "Roboto", sans-serif;
+  }
+  .sessao .div-center .img {
+    height: 409px;
+    width: 755px;
+    padding-top: 1vw;
+  }
+  .sessao .div-center .text-2 {
+    font-size: 2.5vw;
+    text-align: center;
+    padding-top: 3vw;
+    font-family: "Roboto", sans-serif;
+  }
+  .sessao .div-center .video {
+    text-align: center;
+    padding-top: 2vw;
+  }
+}
+@media (max-width: 992px) {
+  header {
+    -webkit-box-shadow: 0px 14px 20px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 14px 20px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 14px 20px -13px rgba(0, 0, 0, 0.75);
+  }
+  .bar .logo {
+    margin: 0vw 0vw 1vw 3vw;
+    align-items: center;
+  }
+  .sessao .div-center {
+    margin: 1vw 17vw 1vw 18vw;
+  }
+  .sessao .div-center .text-1 {
+    font-size: 9.5vw;
+    text-align: center;
+    padding-top: 3vw;
+    font-family: "Roboto", sans-serif;
+  }
+  .sessao .div-center .paragraph {
+    font-size: 4.3vw;
+    text-align: center;
+    padding-top: 3vw;
+    font-family: "Roboto", sans-serif;
+  }
+  .sessao .div-center .img {
+    height: 290px;
+    width: 270px;
+    padding-top: 1vw;
+  }
+  .sessao .div-center .text-2 {
+    font-size: 5.5vw;
+    text-align: center;
+    padding-top: 3vw;
+    font-family: "Roboto", sans-serif;
+  }
+  .sessao .div-center .video {
+    text-align: center;
+    padding-top: 2vw;
+  }
+  .sessao .div-center .video iframe {
+    width: 270px;
+    height: 210px;
+  }
+}
